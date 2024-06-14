@@ -1,0 +1,55 @@
+/* Importare font di Google: https://fonts.google.com/ */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto&display=swap");
+/* gli elementi heading (h1,h2...) con Oswald */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", serif;
+}
+/* tutto il resto con Roboto */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.carousel-item{
+    max-height: 80vh;
+}
+.carousel-item img{
+    filter: brightness(50%);
+}
+
+.bg-about{
+    background-image: 
+    linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),
+    url("img/staff.jpg");
+    min-height: 60vh;
+    background-position: 7px 11%;
+    background-size: cover;
+  
+}
+.staff-photo{
+    height: 360px;
+    object-fit: cover;
+}
+.piatti{
+    height: 360px;
+    object-fit: cover;
+}
+.bg-menu{
+    background-image: 
+    linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),
+    url("img/restaurant-background.jpg");
+    min-height: 60vh;
+    background-position: 7px 25%;
+    background-size: cover;
+  
+}
+@media (max-width:575px){
+    .rounded-start{
+        max-height: 50vh;
+
+    }
+}
